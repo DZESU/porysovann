@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<title>Sign Up</title>
+<head>
+<link rel="stylesheet" type="text/css" href="body.css">
+</head>
+
+<style>
+
+table{
+	border: 1px solid black;
+	background-color:#efefef;
+	outline-style:outset;
+	outline-color:#FFFFFF;
+	outline-width:0.5em;
+	padding: 5px;
+	width:40%;
+	
+		margin-left: 30%;
+		margin-top: 3%;
+}
+td{
+	padding:10px;
+	
+}
+td:nth-child(odd) {
+    text-align:center;
+}
+td.gender{
+	text-align: left;
+}
+.icoon{
+	background-image: url('fe_logo.jpg');
+}
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover {
+    color: red;
+	text-decoration: underline;
+}
+
+.center{
+text-align: center;
+}
+#h1Title{
+ padding-top: 30px;
+ text-decoration: underline;
+}
+</style>
+
+<body>
+<h1 id="h1Title" class="center">Welcome to Wifi Registration Form<br></h1>
+
+<h3 class="center" style="color:#FFFFFF" >
+Why?<br>
+</h3>
+
+<ol style="margin-left: 15%;color:#FFFFFF;line-height: 2;max-width: 1000px;	" type="1">
+
+	<li><b>Fast Speed:</b> Besides purchased speed every Digi client has an access to Digi World, Super Speed, Fast YouTube and Unrestricted uploading features
+		<ul style="list-style-position: inside; list-style: square">
+			<li>Cable Wire</li>
+			<li>Fiber Optic</li>
+		</ul>
+	</li>
+	
+	<li><b>Unlimited:</b> it is pure unlimited data usage, download/upload as much as you can! Your bill will be the same
+	</li>
+	
+	<li><b>Reliable:</b> thanks to fiber-optic cable network Digi connection is always ON - weather isnt an issue
+	</li>
+
+</ol>
+
+<table>
+<form method="post">
+
+	<tr>
+	<td></td>
+	<td  style="text-align: left" >Sign Up
+	</td>
+	</tr>
+	<tr>
+		<td>First Name:
+		</td>
+		<td>
+			<input type="text" name="first_name" required>
+		</td>
+
+	</tr>
+	
+	<tr>
+		<td>Last Name:
+		</td>
+		<td>
+			<input type="text" name="last_name" required>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>Age:
+		</td>
+		<td>
+			<input type="number" name="age" required>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td rowspan="4">
+		Gender
+		</td>
+		
+		<tr>
+		<td class="gender">
+			<input type="radio" name="gender" value="male" checked>Male
+		</td>
+		</tr>
+		
+		<tr>
+		<td class="gender">
+			<input type="radio" name="gender" value="male" >Female
+		</td>
+		</tr>
+		
+		<tr>
+		<td class="gender"	>
+			<input type="radio" name="gender" value="male" >Other
+		</td>
+		</tr>
+		
+		
+		
+	</tr>
+	
+	<tr>
+		<td>Address:
+		</td>
+		<td>
+			<textarea name="address" rows="4" cols="40" required></textarea>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>Department:
+		</td>
+		<td>				
+			<select name="department">
+				<option value="ITE">Infornation Technology Engineering</option>
+				<option value="TELE">Telecommunication Engineering</option>
+				<option value="BIOE">Biology Engineering</option>
+			</select>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>Username:
+		</td>
+		<td>
+			<input type="text" name="username" required>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>Email:
+		</td>
+		<td>
+			<input type="email" name="email" required>
+		</td>	
+	</tr>
+	
+	
+	<tr>
+		<td>Password:
+		</td>
+		<td>
+			<input type="password" name="password" required>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>Confirm Password:
+		</td>
+		<td>
+			<input type="password" name="confirm password" required>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>
+		</td>
+		<td>
+			<input type="checkbox" required>I agree with no condition
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<td>
+		</td>
+		<td style="text-align: right">
+			<input type="submit" value="Sign Up">
+		</td>
+		
+	</tr>
+	
+</form>
+
+</table>
+
+<p style="text-align: center; color:#FFFFFF" >Ready have account? Then <a href="file:///C:/Users/user/Desktop/homework/Web/Week1/login_form.html" > Login<br></a>
+<b>Brought you by:</b><br><br>
+<img src="fe_logo.jpg">
+</p>
+</body>
+
+
+</html>

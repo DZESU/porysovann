@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<title>Login</title>
+<head>
+<link rel="stylesheet" type="text/css" href="body.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+*{
+	padding:0px;
+	margin: 0px;
+}
+table{
+		border: 1px solid black;
+		background-color:#efefef;
+		width: 20%;
+		padding:4%;
+}
+.fontTest{
+	font-family: Arial, Helvetica, sans-serif;
+}
+tr{
+	
+	height : 35px;
+}
+div{
+	padding-top:20%;
+	padding-left:40%;
+}
+
+/* nav */
+
+ul.subnav>li{
+background-color:#474747;
+}
+
+ul#nav{
+
+height:50px;
+background-color:#474747;
+}
+ul#nav, ul.subnav{
+	list-style-type: none;	
+		
+}
+
+ul#nav li{
+	
+	position:relative;
+	height: 40px;
+	width: 150px;	
+	text-align: center;
+	float: left;
+}
+
+ul#nav a{
+	padding-top:10px;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	color: white;
+}
+
+ul#nav li:hover > a{
+	background-color: green;
+}
+
+ul#nav li:hover a:hover{
+
+	background-color: green;
+}
+
+ul#nav ul.subnav{
+	display: none;	
+}
+ul#nav li:hover .subnav{
+	display: block;
+}
+
+</style>
+
+<body>
+	<a href="#" style="color: white;font-size:1.7em;>
+		<i class="fa fa-home"  ></i>
+	</a>
+
+	<ul id="nav">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#home">Dept</a>
+			<ul class="subnav">
+				<li><a href="#home">IT</a></li>
+				<li><a href="#home">Tele</a></li>
+				<li><a href="#home">Bio</a></li>
+			</ul>
+		</li>
+		<li><a href="#home">Sign up</a></li>
+	
+	</ul>
+	<div>
+	<table class="fontTest">
+		<tr>
+		  <td></td>
+		  <td><h3>Login</h3></td>
+		</tr>
+	  
+	  <form action = "file:///C:/Users/user/Desktop/homework/Web/Week1/bestwebsiteonearth.html" method="post" >
+	  
+		<tr>
+			<td>Username:</td>
+			<td>
+				<input type="text" name="username" method="post" required>
+			</td>
+		</tr>
+	  
+		<tr>
+			<td>Password:</td>
+			<td>
+				<input type="password" name="password" method="post" required>
+			</td>
+		</tr>
+	  
+		<tr>
+		  <td></td>
+		  <td align="right">
+				<input type="submit" name="Log in" value="Login" method="post">
+				<input type="submit" name="Sign UP" formnovalidate formaction="file:///C:/Users/user/Desktop/homework/Web/Week1/signUp_form.html" value="Sign Up">
+			</td>
+		</tr>
+	    
+	</form>
+</table>
+</div>
+</body>
+
+</html>
